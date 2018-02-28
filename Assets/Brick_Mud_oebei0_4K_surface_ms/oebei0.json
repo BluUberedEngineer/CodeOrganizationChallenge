@@ -1,0 +1,264 @@
+{
+  "id": "oebei0",
+  "categories": [
+    "surface",
+    "brick",
+    "mud"
+  ],
+  "name": "oebei0",
+  "tags": [
+    "Brown",
+    "Tan",
+    "Yellow"
+  ],
+  "environment": {
+    "region": "Asia",
+    "biome": "semiarid-desert"
+  },
+  "averageColor": "#96805D",
+  "previews": {
+    "images": [],
+    "relativeSize": "1x1"
+  },
+  "properties": [
+    {
+      "key": "orientation",
+      "value": "floor"
+    }
+  ],
+  "meta": [
+    {
+      "name": "Scan Area",
+      "key": "scanArea",
+      "value": "1x1 m"
+    },
+    {
+      "name": "Height",
+      "key": "height",
+      "value": "0.042 m"
+    },
+    {
+      "name": "Tileable",
+      "key": "tileable",
+      "value": true
+    },
+    {
+      "name": "Texel Density",
+      "key": "texelDensity",
+      "value": "4096 px/m"
+    },
+    {
+      "name": "Calibration",
+      "key": "calibration",
+      "value": "X-Rite ColorChecker Classic"
+    },
+    {
+      "name": "Scanner",
+      "key": "scanner",
+      "value": "MKI"
+    }
+  ],
+  "components": [
+    {
+      "type": "albedo",
+      "name": "Albedo",
+      "minIntensity": 84,
+      "maxIntensity": 117,
+      "averageColor": "#7C6136",
+      "colorSpace": "sRGB",
+      "uris": [
+        {
+          "resolutions": [
+            {
+              "resolution": "4096x4096",
+              "formats": [
+                {
+                  "mimeType": "image/jpeg",
+                  "bitDepth": 8,
+                  "uri": "oebei_4K_Albedo.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ao",
+      "name": "AO",
+      "minIntensity": 251,
+      "maxIntensity": 255,
+      "averageColor": "#FFFFFF",
+      "colorSpace": "sRGB",
+      "uris": [
+        {
+          "resolutions": [
+            {
+              "resolution": "4096x4096",
+              "formats": [
+                {
+                  "mimeType": "image/jpeg",
+                  "bitDepth": 8,
+                  "uri": "oebei_4K_AO.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cavity",
+      "name": "Cavity",
+      "minIntensity": 223,
+      "maxIntensity": 255,
+      "averageColor": "#F2F2F2",
+      "colorSpace": "sRGB",
+      "uris": [
+        {
+          "resolutions": []
+        }
+      ]
+    },
+    {
+      "type": "displacement",
+      "name": "Displacement",
+      "minIntensity": 101,
+      "maxIntensity": 154,
+      "averageColor": "#7E7E7E",
+      "colorSpace": "Linear",
+      "uris": [
+        {
+          "resolutions": [
+            {
+              "resolution": "4096x4096",
+              "formats": [
+                {
+                  "mimeType": "image/exr",
+                  "bitDepth": 32,
+                  "uri": "oebei_4K_Displacement.exr"
+                },
+                {
+                  "mimeType": "image/jpeg",
+                  "bitDepth": 8,
+                  "uri": "oebei_4K_Displacement.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bump",
+      "name": "Bump",
+      "minIntensity": 108,
+      "maxIntensity": 150,
+      "averageColor": "#808080",
+      "colorSpace": "Linear",
+      "uris": [
+        {
+          "resolutions": [
+            {
+              "resolution": "4096x4096",
+              "formats": [
+                {
+                  "mimeType": "image/jpeg",
+                  "bitDepth": 8,
+                  "uri": "oebei_4K_Bump.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "gloss",
+      "name": "Gloss",
+      "minIntensity": 39,
+      "maxIntensity": 77,
+      "averageColor": "#393939",
+      "colorSpace": "Linear",
+      "uris": [
+        {
+          "resolutions": []
+        }
+      ]
+    },
+    {
+      "type": "normal",
+      "name": "Normal",
+      "minIntensity": 119,
+      "maxIntensity": 164,
+      "averageColor": "#7F7FF8",
+      "colorSpace": "Linear",
+      "uris": [
+        {
+          "resolutions": [
+            {
+              "resolution": "4096x4096",
+              "formats": [
+                {
+                  "mimeType": "image/jpeg",
+                  "bitDepth": 8,
+                  "uri": "oebei_4K_Normal.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "roughness",
+      "name": "Roughness",
+      "minIntensity": 180,
+      "maxIntensity": 213,
+      "averageColor": "#C5C5C5",
+      "colorSpace": "Linear",
+      "uris": [
+        {
+          "resolutions": [
+            {
+              "resolution": "4096x4096",
+              "formats": [
+                {
+                  "mimeType": "image/jpeg",
+                  "bitDepth": 8,
+                  "uri": "oebei_4K_Roughness.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "specular",
+      "name": "Specular",
+      "minIntensity": 30,
+      "maxIntensity": 59,
+      "averageColor": "#323232",
+      "colorSpace": "sRGB",
+      "uris": [
+        {
+          "resolutions": [
+            {
+              "resolution": "4096x4096",
+              "formats": [
+                {
+                  "mimeType": "image/jpeg",
+                  "bitDepth": 8,
+                  "uri": "oebei_4K_Specular.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "points": 1,
+  "references": []
+}
